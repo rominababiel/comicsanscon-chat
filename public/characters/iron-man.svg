@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="iron-man-title">
+  <title id="iron-man-title">Iron Man</title>
+  <defs>
+    <pattern id="im-dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.4" cy="2.4" r="2" fill="#6d0a15" opacity="0.5" />
+    </pattern>
+    <radialGradient id="im-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#9beaf7" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="im-frame">
+      <rect width="240" height="240" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#im-frame)">
+    <rect width="240" height="240" fill="#c2101f" />
+    <rect width="240" height="240" fill="url(#im-dots)" />
+
+    <g fill="#f6d34a" opacity="0.45">
+      <polygon points="120,116 -20,-8 34,-42" />
+      <polygon points="120,116 236,-46 274,14" />
+      <polygon points="120,116 -42,88 -46,138" />
+      <polygon points="120,116 284,100 288,148" />
+      <polygon points="120,116 -12,262 42,282" />
+      <polygon points="120,116 214,270 262,238" />
+    </g>
+    <circle cx="120" cy="114" r="88" fill="#e02434" />
+
+    <g stroke="#120a0c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M18 244c3-38 22-60 56-70l46-14 46 14c34 10 53 32 56 70z" fill="#c2101f" />
+      <path d="M18 244c3-38 22-60 56-70l8-2-6 72z" fill="#8e0c18" />
+      <path d="M222 244c-3-38-22-60-56-70l-8-2 6 72z" fill="#8e0c18" />
+      <path d="M88 176c10 16 54 16 64 0l-12-4c-8 8-32 8-40 0z" fill="#e8b21c" />
+      <path d="M78 196h84l6 48H72z" fill="#e8b21c" />
+      <path d="M78 196h84l3 14H75z" fill="#b8830d" stroke="none" />
+
+      <circle cx="120" cy="212" r="24" fill="#e8b21c" />
+      <circle cx="120" cy="212" r="16" fill="#12323b" />
+      <circle cx="120" cy="212" r="16" fill="url(#im-glow)" stroke="none" />
+      <circle cx="120" cy="212" r="9" fill="#e6fdff" stroke="none" />
+      <path d="M120 196v32M104 212h32" stroke="#9beaf7" stroke-width="3.5" opacity="0.9" />
+
+      <path d="M120 22c-38 0-60 26-60 68v38c0 20 11 36 29 45l14 7h34l14-7c18-9 29-25 29-45V90c0-42-22-68-60-68z" fill="#c2101f" />
+      <path d="M120 22c-38 0-60 26-60 68h18c2-32 18-50 42-50z" fill="#f2596a" stroke="none" />
+      <path d="M166 46c8 12 14 27 14 44v38c0 20-11 36-29 45l-8 4 6-6c16-10 25-25 25-43z" fill="#8e0c18" stroke="none" />
+
+      <path d="M120 44c-27 0-45 20-45 56v30c0 20 11 36 27 44l18 8 18-8c16-8 27-24 27-44v-30c0-36-18-56-45-56z" fill="#e8b21c" />
+      <path d="M120 44c-27 0-45 20-45 56h16c1-28 13-44 29-44z" fill="#fbe89b" stroke="none" />
+      <path d="M152 58c8 11 13 25 13 42v30c0 20-11 36-27 44l-8 4 4-2c16-8 25-24 25-44z" fill="#b8830d" stroke="none" />
+
+      <path d="M75 96l-13 10v28l13 10z" fill="#c2101f" />
+      <path d="M165 96l13 10v28l-13 10z" fill="#c2101f" />
+      <path d="M75 96l-13 10v28z" fill="#8e0c18" stroke="none" />
+
+      <path d="M78 96l32 8-2 20-30-6z" fill="#120a0c" stroke="none" />
+      <path d="M162 96l-32 8 2 20 30-6z" fill="#120a0c" stroke="none" />
+      <path d="M83 101l24 6-1 12-23-5z" fill="#d8fbff" stroke="none" />
+      <path d="M157 101l-24 6 1 12 23-5z" fill="#d8fbff" stroke="none" />
+      <path d="M86 104l14 3-1 6-13-3z" fill="#ffffff" stroke="none" />
+      <path d="M154 104l-14 3 1 6 13-3z" fill="#ffffff" stroke="none" />
+
+      <path d="M112 92h16l3 42h-22z" fill="#b8830d" stroke-width="4" />
+      <path d="M96 142h48" stroke-width="4" />
+      <path d="M92 154h56l-8 14h-40z" fill="#b8830d" stroke-width="4" />
+      <path d="M104 154v14M120 154v14M136 154v14" stroke-width="3" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="spider-man-title">
+  <title id="spider-man-title">Spider-Man</title>
+  <defs>
+    <pattern id="sm-dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.4" cy="2.4" r="2" fill="#0d2a63" opacity="0.55" />
+    </pattern>
+    <clipPath id="sm-frame">
+      <rect width="240" height="240" />
+    </clipPath>
+    <clipPath id="sm-mask">
+      <path d="M120 22c-37 0-60 27-60 64 0 24 5 43 15 58 11 16 27 25 45 25s34-9 45-25c10-15 15-34 15-58 0-37-23-64-60-64z" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#sm-frame)">
+    <rect width="240" height="240" fill="#1b4fa8" />
+    <rect width="240" height="240" fill="url(#sm-dots)" />
+
+    <g fill="#8fc2ff" opacity="0.45">
+      <polygon points="120,116 -24,-10 30,-44" />
+      <polygon points="120,116 240,-48 278,10" />
+      <polygon points="120,116 -44,86 -48,136" />
+      <polygon points="120,116 286,98 290,146" />
+      <polygon points="120,116 -16,258 38,280" />
+      <polygon points="120,116 210,268 258,238" />
+    </g>
+    <circle cx="120" cy="114" r="88" fill="#2f6fd0" />
+
+    <g stroke="#120a0c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M18 244c4-36 22-58 56-68l46-14 46 14c34 10 52 32 56 68z" fill="#1f56b0" />
+      <path d="M92 162l28 20 28-20 14 4-42 34-42-34z" fill="#d61f2b" />
+      <path d="M18 244c4-36 22-58 56-68l8-2-6 70z" fill="#143c7d" />
+      <path d="M222 244c-4-36-22-58-56-68l-8-2 6 70z" fill="#143c7d" />
+
+      <g fill="#120a0c" stroke="none">
+        <path d="M120 186c6 0 10 4 10 10s-4 10-10 10-10-4-10-10 4-10 10-10z" />
+        <path d="M112 190l-18-12-4 6 20 12zM128 190l18-12 4 6-20 12zM110 198l-22 4-1 7 23-6zM130 198l22 4 1 7-23-6zM112 206l-14 16 5 4 13-16zM128 206l14 16-5 4-13-16z" />
+      </g>
+
+      <path d="M120 22c-37 0-60 27-60 64 0 24 5 43 15 58 11 16 27 25 45 25s34-9 45-25c10-15 15-34 15-58 0-37-23-64-60-64z" fill="#d61f2b" />
+
+      <g clip-path="url(#sm-mask)" stroke="#120a0c" stroke-width="1.8" fill="none" opacity="0.85">
+        <path d="M120 10v190M120 10 60 60M120 10 180 60M120 10 40 120M120 10 200 120M120 10 58 172M120 10 182 172M120 10 96 200M120 10 144 200" />
+        <path d="M46 52q74-26 148 0M40 84q80-30 160 0M40 116q80-32 160 0M46 148q74-34 148 0M56 180q64-32 128 0" />
+      </g>
+
+      <path d="M120 22c-37 0-60 27-60 64h18c1-31 16-50 42-50z" fill="#f2596a" stroke="none" opacity="0.55" />
+      <path d="M162 48c11 12 18 27 18 38 0 24-5 43-15 58-8 12-19 20-31 24 20-2 34-11 43-24 10-15 15-34 15-58 0-15-4-28-11-38z" fill="#9c1420" stroke="none" opacity="0.6" />
+
+      <path d="M52 84C68 62 102 60 114 76c8 11 2 29-14 41-18 14-42 12-48-3-5-11-5-21 0-30z" fill="#120a0c" />
+      <path d="M188 84c-16-22-50-24-62-8-8 11-2 29 14 41 18 14 42 12 48-3 5-11 5-21 0-30z" fill="#120a0c" />
+      <path d="M61 89C74 71 100 69 108 81c6 9 0 23-14 33-15 11-34 10-38-2-3-8-2-16 5-23z" fill="#f4f7ff" stroke="none" />
+      <path d="M179 89c-13-18-39-20-47-8-6 9 0 23 14 33 15 11 34 10 38-2 3-8 2-16-5-23z" fill="#f4f7ff" stroke="none" />
+      <path d="M70 92c10-10 26-12 32-5 4 5-1 13-10 19" fill="none" stroke="#c9d6ef" stroke-width="5" />
+      <path d="M170 92c-10-10-26-12-32-5-4 5 1 13 10 19" fill="none" stroke="#c9d6ef" stroke-width="5" />
+    </g>
+  </g>
+</svg>

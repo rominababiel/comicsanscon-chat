@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="cap-title">
+  <title id="cap-title">Capitán América</title>
+  <defs>
+    <pattern id="cap-dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.4" cy="2.4" r="2" fill="#0d2a63" opacity="0.5" />
+    </pattern>
+    <clipPath id="cap-frame">
+      <rect width="240" height="240" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cap-frame)">
+    <rect width="240" height="240" fill="#1b4fa8" />
+    <rect width="240" height="240" fill="url(#cap-dots)" />
+
+    <g fill="#cfe2ff" opacity="0.4">
+      <polygon points="120,116 -24,-10 30,-44" />
+      <polygon points="120,116 240,-48 278,10" />
+      <polygon points="120,116 -44,86 -48,136" />
+      <polygon points="120,116 286,98 290,146" />
+      <polygon points="120,116 -16,258 38,280" />
+      <polygon points="120,116 210,268 258,238" />
+    </g>
+    <circle cx="120" cy="114" r="88" fill="#2f6fd0" />
+
+    <g stroke="#120a0c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M12 244c4-38 24-62 60-72l48-14 48 14c36 10 56 34 60 72z" fill="#1f56b0" />
+      <path d="M12 244c4-38 24-62 60-72l8-2-8 74z" fill="#17407f" />
+      <path d="M228 244c-4-38-24-62-60-72l-8-2 8 74z" fill="#17407f" />
+
+      <path d="M86 196h68v48H86z" fill="#f4f7fb" />
+      <path d="M86 196h13v48H86zM112 196h14v48h-14zM139 196h15v48h-15z" fill="#c8102e" />
+      <path d="M120 164l10 20h22l-18 15 7 22-21-13-21 13 7-22-18-15h22z" fill="#f4f7fb" />
+
+      <path d="M74 178c14 28 26 40 46 42l-6 12c-26-4-42-20-54-48z" fill="#8a5a2b" />
+      <path d="M166 178c-14 28-26 40-46 42l6 12c26-4 42-20 54-48z" fill="#8a5a2b" />
+
+      <g transform="translate(24 206)">
+        <circle r="56" fill="#c8102e" />
+        <circle r="44" fill="#f4f7fb" />
+        <circle r="33" fill="#c8102e" />
+        <circle r="22" fill="#1f56b0" />
+        <path d="M0-18l5 11 12 1-9 8 3 12-11-7-11 7 3-12-9-8 12-1z" fill="#f4f7fb" />
+      </g>
+
+      <path d="M120 22c-34 0-55 23-55 59v27c0 32 24 60 55 60s55-28 55-60V81c0-36-21-59-55-59z" fill="#1f56b0" />
+      <path d="M120 22c-34 0-55 23-55 59h17c1-29 15-45 38-45z" fill="#3b74d1" stroke="none" />
+      <path d="M160 44c9 10 15 23 15 37v27c0 26-16 50-39 57 28-3 39-30 39-57V81c0-15-5-28-15-37z" fill="#17407f" stroke="none" />
+
+      <path d="M120 44 137 77h-11l-3-6h-6l-3 6h-11z M120 56l4 9h-8z" fill="#f4f7fb" fill-rule="evenodd" stroke-width="3.5" />
+
+      <g fill="#f4f7fb" stroke-width="2.5">
+        <path d="M68 74C54 64 38 50 24 34c18 9 36 21 50 32z" />
+        <path d="M70 85C56 78 42 68 30 56c16 8 32 17 44 24z" />
+        <path d="M73 96C61 92 49 85 39 75c14 7 27 13 38 17z" />
+        <path d="M172 74c14-10 30-24 44-40-18 9-36 21-50 32z" />
+        <path d="M170 85c14-7 28-17 40-29-16 8-32 17-44 24z" />
+        <path d="M167 96c12-4 24-11 34-21-14 7-27 13-38 17z" />
+      </g>
+
+      <path d="M76 114c3 18 11 33 23 42 8 6 34 6 42 0 12-9 20-24 23-42-7 7-17 11-28 11H104c-11 0-21-4-28-11z" fill="#f6c9a0" />
+      <path d="M76 114c3 18 11 33 23 42l6 3c-13-11-22-27-26-45z" fill="#ffe2c6" stroke="none" />
+      <path d="M164 114c-3 18-11 33-23 42l-6 3c13-11 22-27 26-45z" fill="#d79b6e" stroke="none" />
+
+      <path d="M84 106c7-7 20-8 28-3 4 3 3 8-2 11-8 5-21 5-26 1-3-2-3-6 0-9z" fill="#f4f7fb" />
+      <path d="M156 106c-7-7-20-8-28-3-4 3-3 8 2 11 8 5 21 5 26 1 3-2 3-6 0-9z" fill="#f4f7fb" />
+      <path d="M96 103c4 0 7 3 7 7 0 3-1 5-3 6h-8c-2-1-3-3-3-6 0-4 3-7 7-7z" fill="#120a0c" stroke="none" />
+      <path d="M144 103c4 0 7 3 7 7 0 3-1 5-3 6h-8c-2-1-3-3-3-6 0-4 3-7 7-7z" fill="#120a0c" stroke="none" />
+      <circle cx="98" cy="106" r="2" fill="#ffffff" stroke="none" />
+      <circle cx="146" cy="106" r="2" fill="#ffffff" stroke="none" />
+      <path d="M80 92c11-6 24-6 33 0M160 92c-11-6-24-6-33 0" fill="none" stroke-width="6" />
+
+      <path d="M118 118v16l-8 5" fill="none" stroke-width="4" />
+      <path d="M105 148c8 5 22 5 30 0" fill="none" stroke-width="5" />
+      <path d="M111 158c5 3 13 3 18 0" fill="none" stroke-width="3.5" opacity="0.55" />
+    </g>
+  </g>
+</svg>

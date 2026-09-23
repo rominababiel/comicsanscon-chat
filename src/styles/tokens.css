@@ -1,0 +1,61 @@
+:root {
+  --font-display: 'Bangers', Impact, 'Arial Black', sans-serif;
+  --font-body: 'Comic Neue', 'Comic Sans MS', 'Segoe UI', sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+
+  --radius-bubble: 1.25rem;
+  --radius-full: 999px;
+
+  --header-height: 4.25rem;
+  --footer-height: 3.5rem;
+  --content-width: 76rem;
+  --transition: 140ms ease;
+
+  --line-width: 3px;
+
+  /* Paleta Marvel: rojo de marca, negro de tinta y blanco, sobre papel de cómic. */
+  --marvel-red: #ec1d24;
+  --marvel-red-deep: #b3151b;
+  --marvel-blue: #1b4fa8;
+  --marvel-black: #151515;
+  --marvel-white: #ffffff;
+
+  --yellow: #ffd400;
+  --red: var(--marvel-red);
+  --accent: var(--marvel-red);
+
+  --paper: #fff8e7;
+  --surface: #ffffff;
+  --ink: var(--marvel-black);
+  --text: var(--marvel-black);
+  --text-muted: #524d45;
+  --on-accent: var(--marvel-white);
+
+  --masthead-bg: var(--marvel-red);
+  --masthead-text: var(--marvel-white);
+
+  --halftone-dot: rgba(21, 21, 21, 0.16);
+  --danger-bg: #ffe3e6;
+  --success: #1f8a3b;
+}
+
+:root[data-theme='dark'] {
+  --paper: #16141a;
+  --surface: #23202a;
+  --ink: #fff8e7;
+  --text: #fff8e7;
+  --text-muted: #cfc8bb;
+
+  --masthead-bg: var(--marvel-red-deep);
+
+  --halftone-dot: rgba(255, 248, 231, 0.14);
+  --danger-bg: #4a1d22;
+  --success: #6fe08c;
+}

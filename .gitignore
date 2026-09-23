@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+
+.env
+.env.*
+!.env.example
+
+.vercel
+.DS_Store
+*.log
+
+# Material de la consigna (no forma parte del entregable)
+/*.pdf
